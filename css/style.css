@@ -17,3 +17,14 @@
 h1{
     margin: 10px 0 20px;
 }
+
+/* style biglietto da visita */
+
+.profilo{
+    width: calc(100% / 3 - 20px);
+    background-color: rgb(7, 2, 24);
+    margin: 20px 10px;
+    float: left;
+    /* debug */
+    height: 300px;
+}
