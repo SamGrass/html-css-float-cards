@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
 }
 
 /* style container */
 
 #container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -16,15 +17,42 @@
 
 h1{
     margin: 10px 0 20px;
+    color: rgb(255, 66, 101);
+    font-size: 46px;
 }
 
-/* style biglietto da visita */
+/* style generale biglietto da visita */
 
-.profilo{
+.profile{
     width: calc(100% / 3 - 20px);
     background-color: rgb(7, 2, 24);
     margin: 20px 10px;
     float: left;
-    /* debug */
-    height: 300px;
+    color: white;
+    box-shadow: 0 0 10px 3px grey;
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.info-prof{
+    text-align: left;
+    padding: 10px; 
+    line-height: 1.5;
+}
+
+/* style contenuto biglietto */
+
+.profile img{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.profile a{
+    text-decoration: none;
+    color: rgb(3, 100, 211);
 }
